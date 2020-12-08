@@ -1,0 +1,8 @@
+ja:
+  activerecord:
+    errors:
+      messages:
+        record_invalid:
+        restrict_dependent_destroy:
+          has_one:
+          has_many:

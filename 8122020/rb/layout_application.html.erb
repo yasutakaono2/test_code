@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Baukis</title>
+        <%= csrf_meta_tags %>
+        <%= csp_meta_tag %>
+
+        <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": true %></p>
+        <%= javascript_pack_tag "application", "data-turbolink-track": true %>
+    </head>
+
+    <body>
+        #<%= yield %>
+        <div id="wrapper">
+            <%= render "shared/header" %>
+            <div id="container">
+                <%= yield %>
+            </div>
+            <%= render "shared/footer" %>
+        </div>
+    </body>
+</html>
